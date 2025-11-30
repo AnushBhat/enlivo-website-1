@@ -374,7 +374,7 @@ const EnterpriseSystemPage = () => (
       </div>
 
       <div className="rounded-2xl overflow-hidden border border-slate-800 relative h-[400px]">
-        <img src="https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&q=80&w=1200" alt="Server Room" className="w-full h-full object-cover" />
+{/*         <img src="https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&q=80&w=1200" alt="Server Room" className="w-full h-full object-cover" /> */}
         <div className="absolute inset-0 bg-slate-900/60 flex items-center justify-center">
            <div className="text-center">
              <Server className="w-16 h-16 text-indigo-500 mx-auto mb-4" />
@@ -503,17 +503,17 @@ const LaunchpadPage = () => (
       </div>
 
       {/* Program Snapshot */}
-      <div className="grid md:grid-cols-4 gap-6 mb-20">
+      <div className="grid md:grid-cols-3 gap-6 mb-20">
         <div className="glass-card p-6 rounded-xl text-center">
           <Clock className="w-8 h-8 text-indigo-400 mx-auto mb-3" />
           <div className="font-bold text-white">Duration</div>
           <div className="text-sm text-slate-400">6 Months Training + 1-2 Yr Support</div>
         </div>
-        <div className="glass-card p-6 rounded-xl text-center">
+{/*         <div className="glass-card p-6 rounded-xl text-center">
           <DollarSign className="w-8 h-8 text-green-400 mx-auto mb-3" />
           <div className="font-bold text-white">Total Fee</div>
           <div className="text-sm text-slate-400">₹1,00,000 INR</div>
-        </div>
+        </div> */}
         <div className="glass-card p-6 rounded-xl text-center">
           <Briefcase className="w-8 h-8 text-blue-400 mx-auto mb-3" />
           <div className="font-bold text-white">Target</div>
@@ -824,7 +824,7 @@ const ContactPage = () => {
             </div>
             <div className="flex items-center gap-3 justify-center text-slate-400">
               <MapPin className="w-5 h-5 text-indigo-400" />
-              <span>Bengalurur, India</span>
+              <span>Bengaluru, India</span>
             </div>
           </div>
         </div>
@@ -864,7 +864,7 @@ const Footer = ({ setPage }) => {
         <div>
           <div className="flex items-center gap-2 mb-6">
             <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center">
-              <Zap className="text-white w-5 h-5" fill="currentColor" />
+              <img src={Enlivologo} className="Enlivologo" alt="Enlivologo" />
             </div>
             <span className="text-2xl font-bold text-white">Enlivo</span>
           </div>
@@ -896,7 +896,7 @@ const Footer = ({ setPage }) => {
           <ul className="space-y-4 text-sm">
              <li><button onClick={() => setPage('contact')} className="hover:text-indigo-400 transition-colors">Contact Us</button></li>
              <li><button className="hover:text-indigo-400 transition-colors">Careers</button></li>
-             <li className="flex items-center gap-2"><Mail className="w-4 h-4" /> hello@enlivo.io</li>
+             <li className="flex items-center gap-2"><Mail className="w-4 h-4" /> hello@enlivo.com</li>
              <li className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Bengaluru, India</li>
           </ul>
         </div>
@@ -930,7 +930,7 @@ const Footer = ({ setPage }) => {
       
       {/* Bottom Bar */}
       <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
-        <p>&copy; 2024 Enlivo Technologies. All rights reserved.</p>
+        <p>&copy; 2025 Enlivo Technologies. All rights reserved.</p>
         <div className="flex gap-8">
           <button className="hover:text-white transition-colors">Privacy Policy</button>
           <button className="hover:text-white transition-colors">Terms of Service</button>
